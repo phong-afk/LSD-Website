@@ -105,6 +105,13 @@ p {
   margin-bottom: 1rem;
 }
 
+.image-with-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
 abbr[title],
 abbr[data-original-title] {
   text-decoration: underline;
