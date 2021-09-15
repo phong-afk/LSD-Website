@@ -47,6 +47,14 @@
   box-sizing: border-box;
 }
 
+.dp-flex {
+  display: flex;
+}
+.image-timeline {
+  width: 45%;
+  border-radius: 12px;
+}
+
 html {
   font-family: sans-serif;
   line-height: 1.15;
@@ -2105,6 +2113,14 @@ pre code {
   }
   .table-responsive-md > .table-bordered {
     border: 0;
+  }
+  .dp-flex {
+    display: unset !important;
+  }
+  .image-timeline {
+    width: 100%;
+    margin-top: 25px;
+    border-radius: 12px;
   }
   .header-mobile {
     display: flex !important;
